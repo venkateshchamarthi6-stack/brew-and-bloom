@@ -1,0 +1,1126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Brew & Bloom — An artisan sanctuary for handcrafted coffee, freshly baked delicacies, and quiet moments of joy.">
+  <meta name="theme-color" content="#201713">
+  <title>BREW & BLOOM | Artisan Coffee & Bakery</title>
+
+  <!-- Google Fonts: Playfair Display & Plus Jakarta Sans -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;1,400;1,600&family=Plus+Jakarta+Sans:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- Top Announcement Bar -->
+  <div class="announcement-bar">
+    <div class="container announcement-content">
+      <span class="announcement-tag">Seasonal Roast</span>
+      <p>Now brewing: Single-origin Ethiopian Yirgacheffe with wild jasmine notes</p>
+      <a href="#menu" class="announcement-link">Explore Blend &rarr;</a>
+    </div>
+  </div>
+
+  <!-- Navigation Bar -->
+  <header class="site-header" id="navbar">
+    <nav class="nav-container container">
+      <!-- Logo -->
+      <a href="#" class="brand-logo" aria-label="Brew and Bloom Home">
+        <span class="logo-mark">
+          <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round">
+            <path d="M18 8h1a4 4 0 0 1 0 8h-1"></path>
+            <path d="M2 8h16v9a4 4 0 0 1-4 4H6a4 4 0 0 1-4-4V8z"></path>
+            <line x1="6" y1="1" x2="6" y2="4"></line>
+            <line x1="10" y1="1" x2="10" y2="4"></line>
+            <line x1="14" y1="1" x2="14" y2="4"></line>
+          </svg>
+        </span>
+        <div class="logo-text">
+          <span class="brand-title">BREW &amp; BLOOM</span>
+          <span class="brand-subtitle">COFFEE ROASTERS &bull; EST. 2021</span>
+        </div>
+      </a>
+
+      <!-- Desktop Navigation Links -->
+      <ul class="nav-links">
+        <li><a href="#home" class="nav-link active">Home</a></li>
+        <li><a href="#about" class="nav-link">Our Story</a></li>
+        <li><a href="#menu" class="nav-link">Menu</a></li>
+        <li><a href="#features" class="nav-link">Bakery &amp; Crafts</a></li>
+        <li><a href="#gallery" class="nav-link">Gallery</a></li>
+        <li><a href="#contact" class="nav-link">Contact</a></li>
+      </ul>
+
+      <!-- Navbar Action -->
+      <div class="nav-actions">
+        <a href="#menu" class="btn btn-primary btn-sm">Explore Menu</a>
+        <button class="mobile-toggle" id="mobileMenuBtn" aria-label="Toggle mobile menu" aria-expanded="false">
+          <span class="hamburger-line"></span>
+          <span class="hamburger-line"></span>
+          <span class="hamburger-line"></span>
+        </button>
+      </div>
+    </nav>
+
+    <!-- Mobile Drawer Navigation -->
+    <div class="mobile-drawer" id="mobileDrawer">
+      <ul class="mobile-nav-links">
+        <li><a href="#home" class="mobile-link">Home</a></li>
+        <li><a href="#about" class="mobile-link">Our Story</a></li>
+        <li><a href="#menu" class="mobile-link">Menu</a></li>
+        <li><a href="#features" class="mobile-link">Bakery &amp; Crafts</a></li>
+        <li><a href="#gallery" class="mobile-link">Gallery</a></li>
+        <li><a href="#contact" class="mobile-link">Contact &amp; Visit</a></li>
+      </ul>
+      <div class="mobile-drawer-footer">
+        <a href="#menu" class="btn btn-primary btn-block">Explore Full Menu</a>
+        <p class="drawer-hours">Open Daily: 7:00 AM &ndash; 10:00 PM</p>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <!-- HERO SECTION -->
+    <section class="hero-section" id="home">
+      <div class="container hero-grid">
+        <!-- Hero Text -->
+        <div class="hero-content">
+          <div class="badge-pill">
+            <span class="badge-dot"></span>
+            <span class="badge-text">Freshly Brewed Every Day</span>
+          </div>
+
+          <h1 class="hero-title">
+            Slow mornings.<br>
+            <span class="font-italic text-sage">Better coffee.</span>
+          </h1>
+
+          <p class="hero-description">
+            Your neighborhood escape for handcrafted coffee, fresh flavors, and little moments of happiness. Sourced with honor, roasted with patience, and poured with pure devotion.
+          </p>
+
+          <div class="hero-buttons">
+            <a href="#menu" class="btn btn-primary">
+              <span>Explore Our Menu</span>
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <line x1="5" y1="12" x2="19" y2="12"></line>
+                <polyline points="12 5 19 12 12 19"></polyline>
+              </svg>
+            </a>
+            <a href="#about" class="btn btn-outline">
+              <span>Discover Our Story</span>
+            </a>
+          </div>
+
+          <!-- Hero Metrics & Trust Badges -->
+          <div class="hero-trust">
+            <div class="trust-item">
+              <span class="trust-number">100%</span>
+              <span class="trust-label">Direct Trade Arabica</span>
+            </div>
+            <div class="trust-divider"></div>
+            <div class="trust-item">
+              <span class="trust-number">48 hrs</span>
+              <span class="trust-label">Peak Freshness Roast</span>
+            </div>
+            <div class="trust-divider"></div>
+            <div class="trust-item">
+              <span class="trust-number">4.9 &starf;</span>
+              <span class="trust-label">Community Loved</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- Hero Visual Showcase -->
+        <div class="hero-visual">
+          <div class="hero-image-wrapper">
+            <img 
+              src="https://images.unsplash.com/photo-1501339847302-ac426a4a7cbb?auto=format&fit=crop&w=1200&q=85" 
+              alt="Artisan cup of latte art coffee at Brew and Bloom cafe" 
+              class="hero-img main-photo"
+              loading="eager"
+            >
+            <div class="hero-image-overlay"></div>
+
+            <!-- Floating Floating Accent Card -->
+            <div class="floating-card top-right-card">
+              <div class="card-icon">
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                  <path d="M12 2v20M17 5H9.5a3.5 3.5 0 0 0 0 7h5a3.5 3.5 0 0 1 0 7H6"></path>
+                </svg>
+              </div>
+              <div>
+                <span class="card-caption">Starting at only</span>
+                <strong class="card-value">&#8377;129</strong>
+              </div>
+            </div>
+
+            <!-- Floating Card Signature -->
+            <div class="floating-card bottom-left-card">
+              <div class="barista-avatar">
+                <img src="https://images.unsplash.com/photo-1534528741775-53994a69daeb?auto=format&fit=crop&w=120&q=80" alt="Master Barista Elena">
+              </div>
+              <div class="card-details">
+                <p class="card-quote">&ldquo;Every cup tells a quiet story.&rdquo;</p>
+                <span class="card-sub">&mdash; Elena, Head Barista</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- PHILOSOPHY / MARQUEE TICKER -->
+    <section class="ticker-banner" aria-hidden="true">
+      <div class="ticker-track">
+        <span>Handcrafted Espresso</span>
+        <span class="ticker-bullet">&bull;</span>
+        <span>Single-Origin Beans</span>
+        <span class="ticker-bullet">&bull;</span>
+        <span>Stone-Milled Flour</span>
+        <span class="ticker-bullet">&bull;</span>
+        <span>Slow Pours &amp; Cold Brew</span>
+        <span class="ticker-bullet">&bull;</span>
+        <span>Warm Hospitality</span>
+        <span class="ticker-bullet">&bull;</span>
+        <span>Artisan Sourdough</span>
+        <span class="ticker-bullet">&bull;</span>
+        <span>Handcrafted Espresso</span>
+        <span class="ticker-bullet">&bull;</span>
+        <span>Single-Origin Beans</span>
+        <span class="ticker-bullet">&bull;</span>
+        <span>Stone-Milled Flour</span>
+        <span class="ticker-bullet">&bull;</span>
+        <span>Slow Pours &amp; Cold Brew</span>
+      </div>
+    </section>
+
+    <!-- ABOUT OUR CAFÉ -->
+    <section class="about-section" id="about">
+      <div class="container">
+        <div class="about-grid">
+          <!-- Left: Editorial Collage -->
+          <div class="about-visuals">
+            <div class="collage-main">
+              <img 
+                src="https://images.unsplash.com/photo-1442512595331-e89e73853f31?auto=format&fit=crop&w=1000&q=80" 
+                alt="Cozy sunlit interior of Brew and Bloom cafe"
+                class="collage-img-1"
+                loading="lazy"
+              >
+              <div class="collage-badge">
+                <span class="badge-year">SINCE</span>
+                <span class="badge-num">2021</span>
+              </div>
+            </div>
+            <div class="collage-secondary">
+              <img 
+                src="https://images.unsplash.com/photo-1511920170033-f8396924c348?auto=format&fit=crop&w=700&q=80" 
+                alt="Barista weighing freshly roasted whole coffee beans" 
+                class="collage-img-2"
+                loading="lazy"
+              >
+            </div>
+          </div>
+
+          <!-- Right: Narrative -->
+          <div class="about-content">
+            <span class="section-subtitle">Our Heritage &amp; Ethos</span>
+            <h2 class="section-title">
+              More than coffee.<br>
+              <span class="font-italic text-sage">It's a feeling.</span>
+            </h2>
+
+            <div class="about-text">
+              <p>
+                Brew &amp; Bloom was born out of an unwavering passion for quiet rituals. In a world in an eternal rush, we set out to build a serene neighborhood sanctuary where time gently slows down and every sensory detail is celebrated.
+              </p>
+              <p>
+                From shade-grown, ethically harvested beans grown in the misty slopes of Chikmagalur to organic whole milks and handcrafted botanical syrups, we treat every beverage as an edible craft.
+              </p>
+            </div>
+
+            <!-- Pillars -->
+            <div class="about-pillars">
+              <div class="pillar-card">
+                <div class="pillar-icon">
+                  <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                    <circle cx="12" cy="12" r="10"></circle>
+                    <path d="M12 2a14.5 14.5 0 0 0 0 20 14.5 14.5 0 0 0 0-20"></path>
+                    <path d="M2 12h20"></path>
+                  </svg>
+                </div>
+                <div>
+                  <h4 class="pillar-title">Conscious Philosophy</h4>
+                  <p class="pillar-desc">Fair wages for farmers, biodegradable packaging, and zero single-use plastics.</p>
+                </div>
+              </div>
+
+              <div class="pillar-card">
+                <div class="pillar-icon">
+                  <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                    <path d="M12 2L2 7l10 5 10-5-10-5zM2 17l10 5 10-5M2 12l10 5 10-5"></path>
+                  </svg>
+                </div>
+                <div>
+                  <h4 class="pillar-title">Fresh Ingredients</h4>
+                  <p class="pillar-desc">Daily churned farm butter, pure vanilla bean pods, and unrefined raw sugars.</p>
+                </div>
+              </div>
+
+              <div class="pillar-card">
+                <div class="pillar-icon">
+                  <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                    <path d="M6 2v20M18 2v20M6 12h12"></path>
+                  </svg>
+                </div>
+                <div>
+                  <h4 class="pillar-title">Handcrafted Beverages</h4>
+                  <p class="pillar-desc">Calibrated grind sizes, precision temperature dials, and velvety micro-foam art.</p>
+                </div>
+              </div>
+            </div>
+
+            <div class="about-cta-row">
+              <a href="#gallery" class="link-editorial">Take a peek inside our space &rarr;</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- SIGNATURE MENU SECTION -->
+    <section class="menu-section" id="menu">
+      <div class="container">
+        <!-- Header -->
+        <div class="section-header text-center">
+          <span class="section-subtitle">Curated Brews</span>
+          <h2 class="section-title">The Signature Menu</h2>
+          <p class="section-description">
+            Each cup is custom-calibrated on our custom La Marzocco machine, using dual-origin roast notes with velvety mouthfeel and balanced sweetness.
+          </p>
+
+          <!-- Menu Filter Controls -->
+          <div class="menu-filter-bar" role="tablist">
+            <button class="menu-filter-btn active" data-filter="all" role="tab" aria-selected="true">All Brews</button>
+            <button class="menu-filter-btn" data-filter="hot" role="tab" aria-selected="false">Hot Classics</button>
+            <button class="menu-filter-btn" data-filter="cold" role="tab" aria-selected="false">Chilled &amp; Nitro</button>
+            <button class="menu-filter-btn" data-filter="specialty" role="tab" aria-selected="false">House Signature</button>
+          </div>
+        </div>
+
+        <!-- Menu Cards Grid -->
+        <div class="menu-grid" id="menuGrid">
+          
+          <!-- Item 1: Cappuccino -->
+          <article class="menu-card" data-category="hot">
+            <div class="menu-card-image">
+              <img 
+                src="https://images.unsplash.com/photo-1534778101976-62847782c213?auto=format&fit=crop&w=800&q=80" 
+                alt="Velvety Cappuccino with dusted cinnamon" 
+                loading="lazy"
+              >
+              <span class="menu-card-tag">Customer Favorite</span>
+            </div>
+            <div class="menu-card-body">
+              <div class="menu-card-header">
+                <h3 class="menu-item-name">Cappuccino</h3>
+                <span class="menu-item-price">&#8377;149</span>
+              </div>
+              <p class="menu-item-desc">
+                Equal parts bold espresso, silky steamed milk, and a thick airy crown of micro-foam, lightly dusted with organic Ceylon cinnamon.
+              </p>
+              <div class="menu-card-footer">
+                <span class="menu-spec">240 ml &bull; Medium Roast</span>
+                <button class="btn-order-direct" data-item="Cappuccino" data-price="149" title="Order at counter">
+                  + Add to Order
+                </button>
+              </div>
+            </div>
+          </article>
+
+          <!-- Item 2: Caffè Latte -->
+          <article class="menu-card" data-category="hot">
+            <div class="menu-card-image">
+              <img 
+                src="https://images.unsplash.com/photo-1570968915860-54d5c301fa9f?auto=format&fit=crop&w=800&q=80" 
+                alt="Creamy Caffè Latte with swan latte art" 
+                loading="lazy"
+              >
+            </div>
+            <div class="menu-card-body">
+              <div class="menu-card-header">
+                <h3 class="menu-item-name">Caff&egrave; Latte</h3>
+                <span class="menu-item-price">&#8377;169</span>
+              </div>
+              <p class="menu-item-desc">
+                Smooth double shot of Arabica balanced with steamed whole milk and a delicate veil of swan latte art. Subtle hazelnut undertones.
+              </p>
+              <div class="menu-card-footer">
+                <span class="menu-spec">300 ml &bull; Mild Sweetness</span>
+                <button class="btn-order-direct" data-item="Caffè Latte" data-price="169" title="Order at counter">
+                  + Add to Order
+                </button>
+              </div>
+            </div>
+          </article>
+
+          <!-- Item 3: Caramel Macchiato -->
+          <article class="menu-card" data-category="specialty">
+            <div class="menu-card-image">
+              <img 
+                src="https://images.unsplash.com/photo-1485808191679-5f86510681a2?auto=format&fit=crop&w=800&q=80" 
+                alt="Layered Caramel Macchiato with golden drizzle" 
+                loading="lazy"
+              >
+              <span class="menu-card-tag specialty">Signature</span>
+            </div>
+            <div class="menu-card-body">
+              <div class="menu-card-header">
+                <h3 class="menu-item-name">Caramel Macchiato</h3>
+                <span class="menu-item-price">&#8377;189</span>
+              </div>
+              <p class="menu-item-desc">
+                Freshly steamed Madagascar vanilla milk marked with rich bold espresso shots and laced with our house-crafted butter caramel drizzle.
+              </p>
+              <div class="menu-card-footer">
+                <span class="menu-spec">320 ml &bull; Rich &amp; Decadent</span>
+                <button class="btn-order-direct" data-item="Caramel Macchiato" data-price="189" title="Order at counter">
+                  + Add to Order
+                </button>
+              </div>
+            </div>
+          </article>
+
+          <!-- Item 4: Cold Brew -->
+          <article class="menu-card" data-category="cold">
+            <div class="menu-card-image">
+              <img 
+                src="https://images.unsplash.com/photo-1517701550927-30cf4ba1dba5?auto=format&fit=crop&w=800&q=80" 
+                alt="Slow steeped Cold Brew over crystal clear ice rock" 
+                loading="lazy"
+              >
+              <span class="menu-card-tag cold">Slow Steeped</span>
+            </div>
+            <div class="menu-card-body">
+              <div class="menu-card-header">
+                <h3 class="menu-item-name">Cold Brew</h3>
+                <span class="menu-item-price">&#8377;159</span>
+              </div>
+              <p class="menu-item-desc">
+                Steeped gently in chilled mineral water for 18 slow hours. Exceptionally crisp, ultra-low acidity, with distinct cocoa and stone fruit notes.
+              </p>
+              <div class="menu-card-footer">
+                <span class="menu-spec">350 ml &bull; Naturally Sweet</span>
+                <button class="btn-order-direct" data-item="Cold Brew" data-price="159" title="Order at counter">
+                  + Add to Order
+                </button>
+              </div>
+            </div>
+          </article>
+
+          <!-- Item 5: Mocha -->
+          <article class="menu-card" data-category="specialty">
+            <div class="menu-card-image">
+              <img 
+                src="https://images.unsplash.com/photo-1578314675249-a6910f80cc4e?auto=format&fit=crop&w=800&q=80" 
+                alt="Belgian chocolate dark Mocha with espresso" 
+                loading="lazy"
+              >
+            </div>
+            <div class="menu-card-body">
+              <div class="menu-card-header">
+                <h3 class="menu-item-name">Mocha</h3>
+                <span class="menu-item-price">&#8377;179</span>
+              </div>
+              <p class="menu-item-desc">
+                70% single-estate Belgian dark chocolate melted into freshly extracted espresso, combined with warm milk and shaved chocolate curls.
+              </p>
+              <div class="menu-card-footer">
+                <span class="menu-spec">280 ml &bull; Dark Chocolate</span>
+                <button class="btn-order-direct" data-item="Mocha" data-price="179" title="Order at counter">
+                  + Add to Order
+                </button>
+              </div>
+            </div>
+          </article>
+
+          <!-- Item 6: Classic Americano -->
+          <article class="menu-card" data-category="hot">
+            <div class="menu-card-image">
+              <img 
+                src="https://images.unsplash.com/photo-1551030173-122aabc4489c?auto=format&fit=crop&w=800&q=80" 
+                alt="Pure Classic Americano with golden crema" 
+                loading="lazy"
+              >
+            </div>
+            <div class="menu-card-body">
+              <div class="menu-card-header">
+                <h3 class="menu-item-name">Classic Americano</h3>
+                <span class="menu-item-price">&#8377;129</span>
+              </div>
+              <p class="menu-item-desc">
+                Two bold shots of espresso topped with hot artisanal filtered water, preserving the deep golden crema and pure terroir characteristics.
+              </p>
+              <div class="menu-card-footer">
+                <span class="menu-spec">240 ml &bull; Bold &amp; Pure</span>
+                <button class="btn-order-direct" data-item="Classic Americano" data-price="129" title="Order at counter">
+                  + Add to Order
+                </button>
+              </div>
+            </div>
+          </article>
+
+        </div>
+
+        <!-- Menu Action Section -->
+        <div class="menu-actions text-center">
+          <button class="btn btn-primary" id="openMenuModalBtn">
+            <span>View Full Menu &amp; Seasonal Specials</span>
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+              <path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"></path>
+              <polyline points="14 2 14 8 20 8"></polyline>
+              <line x1="16" y1="13" x2="8" y2="13"></line>
+              <line x1="16" y1="17" x2="8" y2="17"></line>
+              <polyline points="10 9 9 9 8 9"></polyline>
+            </svg>
+          </button>
+          <p class="menu-footnote">*Oat milk, almond milk, and decaf roasts available upon request with no extra fuss.</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- SPECIAL FEATURE SECTION -->
+    <section class="features-section" id="features">
+      <div class="container">
+        <div class="feature-header text-center">
+          <span class="section-subtitle">Craft &amp; Kitchen</span>
+          <h2 class="section-title">
+            Made with love.<br>
+            <span class="font-italic text-sage">Served with warmth.</span>
+          </h2>
+          <p class="section-description">
+            Our bakery operates on a nocturnal rhythm. While the city sleeps, our bakers shape, laminate, and bake in small batches so your morning pastry crackles at the very first bite.
+          </p>
+        </div>
+
+        <!-- Editorial Feature Showcase -->
+        <div class="feature-grid">
+          
+          <!-- Feature Item 1: Croissants -->
+          <div class="feature-item">
+            <div class="feature-image-box">
+              <img 
+                src="https://images.unsplash.com/photo-1555507036-ab1f4038808a?auto=format&fit=crop&w=800&q=80" 
+                alt="Flaky French golden butter croissants" 
+                loading="lazy"
+              >
+              <span class="feature-time">Baked Fresh at 6:00 AM</span>
+            </div>
+            <div class="feature-info">
+              <span class="feature-category">Artisan Viennoiserie</span>
+              <h3 class="feature-name">Fresh Butter Croissants</h3>
+              <p class="feature-desc">
+                Layered with authentic Normandy churned butter and rested over 72 hours for that signature golden spiral and paper-thin flaky honeycomb interior.
+              </p>
+              <div class="feature-price-row">
+                <span class="feature-price">&#8377;135</span>
+                <span class="feature-badge">Best with Cappuccino</span>
+              </div>
+            </div>
+          </div>
+
+          <!-- Feature Item 2: Chocolate Brownies -->
+          <div class="feature-item">
+            <div class="feature-image-box">
+              <img 
+                src="https://images.unsplash.com/photo-1606313564200-e75d5e30476c?auto=format&fit=crop&w=800&q=80" 
+                alt="Fudgy sea-salt dark chocolate brownies" 
+                loading="lazy"
+              >
+              <span class="feature-time">House Recipe</span>
+            </div>
+            <div class="feature-info">
+              <span class="feature-category">Sweet Indulgence</span>
+              <h3 class="feature-name">Fudgy Chocolate Brownies</h3>
+              <p class="feature-desc">
+                Dense Belgian dark chocolate crumb infused with cold brew reduction and topped with Maldon flaky sea salt crystals for the ultimate sweet-savory balance.
+              </p>
+              <div class="feature-price-row">
+                <span class="feature-price">&#8377;145</span>
+                <span class="feature-badge">Warm on Request</span>
+              </div>
+            </div>
+          </div>
+
+          <!-- Feature Item 3: Artisan Sandwiches -->
+          <div class="feature-item">
+            <div class="feature-image-box">
+              <img 
+                src="https://images.unsplash.com/photo-1528735602780-2552fd46c7af?auto=format&fit=crop&w=800&q=80" 
+                alt="Grilled artisan sourdough sandwich with heirloom tomatoes and pesto" 
+                loading="lazy"
+              >
+              <span class="feature-time">Made to Order</span>
+            </div>
+            <div class="feature-info">
+              <span class="feature-category">Savory Deli</span>
+              <h3 class="feature-name">Artisan Sourdough Sandwiches</h3>
+              <p class="feature-desc">
+                Wild-ferment sourdough toasted in extra virgin olive oil, layered with buffalo mozzarella, basil walnut pesto, sundried tomatoes, and fresh rocket leaves.
+              </p>
+              <div class="feature-price-row">
+                <span class="feature-price">&#8377;210</span>
+                <span class="feature-badge">Vegetarian Choice</span>
+              </div>
+            </div>
+          </div>
+
+          <!-- Feature Item 4: Specialty Coffee -->
+          <div class="feature-item">
+            <div class="feature-image-box">
+              <img 
+                src="https://images.unsplash.com/photo-1497636577773-f1231844b336?auto=format&fit=crop&w=800&q=80" 
+                alt="Specialty manual V60 pour over brew bar" 
+                loading="lazy"
+              >
+              <span class="feature-time">Micro-Lot Harvest</span>
+            </div>
+            <div class="feature-info">
+              <span class="feature-category">Slow Bar Experience</span>
+              <h3 class="feature-name">Specialty Pour-Over &amp; Aeropress</h3>
+              <p class="feature-desc">
+                A customized tableside manual brew station. Choose your origin bean, water temperature, and brew ratio for an enlightened tasting journey.
+              </p>
+              <div class="feature-price-row">
+                <span class="feature-price">&#8377;195</span>
+                <span class="feature-badge">Pour Over Bar</span>
+              </div>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- CAFÉ EXPERIENCE / GALLERY SECTION -->
+    <section class="gallery-section" id="gallery">
+      <div class="container">
+        <div class="section-header text-center">
+          <span class="section-subtitle">Moments &amp; Atmospheres</span>
+          <h2 class="section-title">The Café Experience</h2>
+          <p class="section-description">
+            Soft amber light, acoustic vinyl melodies, the comforting hum of the espresso grinder, and the lingering scent of freshly baked sourdough.
+          </p>
+        </div>
+
+        <!-- Editorial Masonry-Inspired Grid -->
+        <div class="gallery-grid">
+          
+          <!-- Image 1: Interior -->
+          <figure class="gallery-item item-large">
+            <img 
+              src="https://images.unsplash.com/photo-1554118811-1e0d58224f24?auto=format&fit=crop&w=1200&q=80" 
+              alt="Warm minimalist cafe interior with Scandinavian wooden tables" 
+              loading="lazy"
+            >
+            <figcaption class="gallery-caption">
+              <span class="caption-tag">Atmosphere</span>
+              <h4>Sunlit Sanctuary</h4>
+              <p>Designed with warm timber, limestone surfaces, and quiet reading nooks.</p>
+            </figcaption>
+          </figure>
+
+          <!-- Image 2: Coffee Preparation -->
+          <figure class="gallery-item item-tall">
+            <img 
+              src="https://images.unsplash.com/photo-1447933601403-0c6688de566e?auto=format&fit=crop&w=800&q=80" 
+              alt="Barista precisely crafting a pour over coffee filter" 
+              loading="lazy"
+            >
+            <figcaption class="gallery-caption">
+              <span class="caption-tag">Craft</span>
+              <h4>Manual Pour Ritual</h4>
+              <p>Precision gooseneck kettle flows at 93&deg;C.</p>
+            </figcaption>
+          </figure>
+
+          <!-- Image 3: Coffee Cups -->
+          <figure class="gallery-item">
+            <img 
+              src="https://images.unsplash.com/photo-1517256064527-09c73fc73e38?auto=format&fit=crop&w=800&q=80" 
+              alt="Artisan ceramic handmade coffee cups on marble table" 
+              loading="lazy"
+            >
+            <figcaption class="gallery-caption">
+              <span class="caption-tag">Ceramics</span>
+              <h4>Hand-Thrown Stoneware</h4>
+              <p>Crafted by local pottery artists for perfect heat retention.</p>
+            </figcaption>
+          </figure>
+
+          <!-- Image 4: Fresh Bakery -->
+          <figure class="gallery-item">
+            <img 
+              src="https://images.unsplash.com/photo-1509440159596-0249088772ff?auto=format&fit=crop&w=800&q=80" 
+              alt="Artisan sourdough bread loaves and pastry display" 
+              loading="lazy"
+            >
+            <figcaption class="gallery-caption">
+              <span class="caption-tag">Bakery</span>
+              <h4>Morning Hearth</h4>
+              <p>Crispy crusts and wild open crumb loaves.</p>
+            </figcaption>
+          </figure>
+
+          <!-- Image 5: Cozy Seating -->
+          <figure class="gallery-item">
+            <img 
+              src="https://images.unsplash.com/photo-1521017432531-fbd92d768814?auto=format&fit=crop&w=800&q=80" 
+              alt="Cozy library corner with plush seating and coffee table" 
+              loading="lazy"
+            >
+            <figcaption class="gallery-caption">
+              <span class="caption-tag">Comfort</span>
+              <h4>The Reading Nook</h4>
+              <p>High-speed Wi-Fi, power outlets, and endless tranquility.</p>
+            </figcaption>
+          </figure>
+
+          <!-- Image 6: Coffee Beans -->
+          <figure class="gallery-item item-wide">
+            <img 
+              src="https://images.unsplash.com/photo-1587734195503-904fca47e0e9?auto=format&fit=crop&w=1200&q=80" 
+              alt="Whole roasted single origin coffee beans with natural oil sheen" 
+              loading="lazy"
+            >
+            <figcaption class="gallery-caption">
+              <span class="caption-tag">Origin</span>
+              <h4>Single Estate Harvest</h4>
+              <p>Selected from high-altitude shade-grown estates.</p>
+            </figcaption>
+          </figure>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- TESTIMONIALS & COMMUNITY PRAISE -->
+    <section class="testimonial-section">
+      <div class="container">
+        <div class="section-header text-center">
+          <span class="section-subtitle">Kind Words</span>
+          <h2 class="section-title">Loved by Our Neighborhood</h2>
+        </div>
+
+        <div class="testimonials-grid">
+          <div class="testimonial-card">
+            <div class="stars">&starf;&starf;&starf;&starf;&starf;</div>
+            <p class="quote">
+              &ldquo;Brew &amp; Bloom has redefined my morning routine. The Cold Brew has this incredible chocolate smoothness, and the croissants take me straight back to Paris.&rdquo;
+            </p>
+            <div class="author-info">
+              <strong>Aarav Sharma</strong>
+              <span>Creative Director &bull; Regular Guest</span>
+            </div>
+          </div>
+
+          <div class="testimonial-card featured-testimonial">
+            <div class="stars">&starf;&starf;&starf;&starf;&starf;</div>
+            <p class="quote">
+              &ldquo;An extraordinary cafe experience. No loud blenders, no harsh fluorescent lights&mdash;just exquisite coffee, soothing acoustic music, and the kindest baristas in town.&rdquo;
+            </p>
+            <div class="author-info">
+              <strong>Priya Mehta</strong>
+              <span>Architecture Writer &bull; Food Blogger</span>
+            </div>
+          </div>
+
+          <div class="testimonial-card">
+            <div class="stars">&starf;&starf;&starf;&starf;&starf;</div>
+            <p class="quote">
+              &ldquo;Their Caramel Macchiato with oat milk is unmatched. You can truly taste the quality of the unrefined ingredients and the genuine care in every pour.&rdquo;
+            </p>
+            <div class="author-info">
+              <strong>Devanshi Rao</strong>
+              <span>Product Designer &bull; Coffee Connoisseur</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- VISIT / CONTACT & TABLE INQUIRY -->
+    <section class="contact-section" id="contact">
+      <div class="container">
+        <div class="contact-box-wrapper">
+          <div class="contact-grid">
+            
+            <!-- Left Info -->
+            <div class="contact-info">
+              <span class="section-subtitle light-text">Join Us Today</span>
+              <h2 class="section-title text-light">
+                Come, share a cup<br>
+                <span class="font-italic text-soft-beige">with us.</span>
+              </h2>
+              <p class="contact-lead text-light-muted">
+                Whether you need a quiet corner to write your next chapter, catch up with an old friend, or grab a swift roast on the go, our doors are wide open.
+              </p>
+
+              <div class="info-items">
+                <div class="info-block">
+                  <div class="info-icon">
+                    <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                      <path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"></path>
+                      <circle cx="12" cy="10" r="3"></circle>
+                    </svg>
+                  </div>
+                  <div>
+                    <h4>Our Location</h4>
+                    <p>42 Bloom Boulevard, Near Rosewood Square, Indiranagar, Bengaluru 560038</p>
+                  </div>
+                </div>
+
+                <div class="info-block">
+                  <div class="info-icon">
+                    <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                      <circle cx="12" cy="12" r="10"></circle>
+                      <polyline points="12 6 12 12 16 14"></polyline>
+                    </svg>
+                  </div>
+                  <div>
+                    <h4>Opening Hours</h4>
+                    <p>Monday &ndash; Friday: 7:00 AM &ndash; 10:00 PM<br>Saturday &ndash; Sunday: 7:30 AM &ndash; 11:00 PM</p>
+                  </div>
+                </div>
+
+                <div class="info-block">
+                  <div class="info-icon">
+                    <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                      <path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"></path>
+                    </svg>
+                  </div>
+                  <div>
+                    <h4>Direct Inquiries</h4>
+                    <p>+91 (080) 4920-8811 &bull; hello@brewandbloom.cafe</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <!-- Right: Interactive Reserve / Message Form -->
+            <div class="contact-form-card">
+              <h3 class="form-title">Reserve a Quiet Table</h3>
+              <p class="form-subtitle">Planning a meeting or celebration? Reserve your table in advance.</p>
+
+              <form id="reservationForm" class="reservation-form">
+                <div class="form-group">
+                  <label for="resName">Full Name</label>
+                  <input type="text" id="resName" name="name" placeholder="e.g. Ananya Patel" required>
+                </div>
+
+                <div class="form-row">
+                  <div class="form-group">
+                    <label for="resEmail">Email Address</label>
+                    <input type="email" id="resEmail" name="email" placeholder="ananya@example.com" required>
+                  </div>
+                  <div class="form-group">
+                    <label for="resPhone">Phone Number</label>
+                    <input type="tel" id="resPhone" name="phone" placeholder="+91 98765 43210" required>
+                  </div>
+                </div>
+
+                <div class="form-row">
+                  <div class="form-group">
+                    <label for="resGuests">Number of Guests</label>
+                    <select id="resGuests" name="guests" required>
+                      <option value="1">1 Person (Quiet Corner)</option>
+                      <option value="2" selected>2 Persons (Cozy Booth)</option>
+                      <option value="3-4">3 - 4 Persons (Table)</option>
+                      <option value="5+">5+ Persons (Private Lounge)</option>
+                    </select>
+                  </div>
+                  <div class="form-group">
+                    <label for="resDate">Preferred Date</label>
+                    <input type="date" id="resDate" name="date" required>
+                  </div>
+                </div>
+
+                <div class="form-group">
+                  <label for="resNotes">Special Requests or Dietary Notes (Optional)</label>
+                  <textarea id="resNotes" name="notes" rows="2" placeholder="Anniversary table, oat milk preference, quiet study..."></textarea>
+                </div>
+
+                <button type="submit" class="btn btn-primary btn-block" id="reserveSubmitBtn">
+                  <span>Confirm Reservation Request</span>
+                  <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                    <polyline points="20 6 9 17 4 12"></polyline>
+                  </svg>
+                </button>
+              </form>
+
+              <!-- Form Confirmation Banner (hidden initially) -->
+              <div class="form-success-banner" id="formSuccess">
+                <div class="success-icon">&check;</div>
+                <div>
+                  <strong>Reservation Received!</strong>
+                  <p>We have reserved a quiet spot for you. A confirmation SMS is on its way.</p>
+                </div>
+              </div>
+
+            </div>
+
+          </div>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- FULL MENU MODAL DIALOG -->
+  <div class="modal-backdrop" id="menuModal" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-header">
+        <div>
+          <span class="modal-badge">Full Café Roster</span>
+          <h3 class="modal-title">Brew &amp; Bloom Complete Menu</h3>
+        </div>
+        <button class="modal-close" id="closeMenuModalBtn" aria-label="Close menu">&times;</button>
+      </div>
+      <div class="modal-body">
+        
+        <div class="modal-menu-category">
+          <h4 class="category-heading">Espresso &amp; Hot Pours</h4>
+          <div class="menu-list">
+            <div class="menu-list-row">
+              <span class="row-title">Single Origin Espresso</span>
+              <span class="row-dots"></span>
+              <span class="row-price">&#8377;99</span>
+            </div>
+            <div class="menu-list-row">
+              <span class="row-title">Classic Americano</span>
+              <span class="row-dots"></span>
+              <span class="row-price">&#8377;129</span>
+            </div>
+            <div class="menu-list-row">
+              <span class="row-title">Cortado (1:1 Ratio)</span>
+              <span class="row-dots"></span>
+              <span class="row-price">&#8377;139</span>
+            </div>
+            <div class="menu-list-row">
+              <span class="row-title">Cappuccino</span>
+              <span class="row-dots"></span>
+              <span class="row-price">&#8377;149</span>
+            </div>
+            <div class="menu-list-row">
+              <span class="row-title">Flat White</span>
+              <span class="row-dots"></span>
+              <span class="row-price">&#8377;159</span>
+            </div>
+            <div class="menu-list-row">
+              <span class="row-title">Caff&egrave; Latte</span>
+              <span class="row-dots"></span>
+              <span class="row-price">&#8377;169</span>
+            </div>
+            <div class="menu-list-row">
+              <span class="row-title">Mocha (Belgian Dark)</span>
+              <span class="row-dots"></span>
+              <span class="row-price">&#8377;179</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="modal-menu-category">
+          <h4 class="category-heading">Cold Brews &amp; Iced Specialties</h4>
+          <div class="menu-list">
+            <div class="menu-list-row">
+              <span class="row-title">18-Hour Kyoto Cold Brew</span>
+              <span class="row-dots"></span>
+              <span class="row-price">&#8377;159</span>
+            </div>
+            <div class="menu-list-row">
+              <span class="row-title">Iced Caramel Macchiato</span>
+              <span class="row-dots"></span>
+              <span class="row-price">&#8377;189</span>
+            </div>
+            <div class="menu-list-row">
+              <span class="row-title">Nitro Cold Brew on Tap</span>
+              <span class="row-dots"></span>
+              <span class="row-price">&#8377;199</span>
+            </div>
+            <div class="menu-list-row">
+              <span class="row-title">Spiced Tonic Espresso</span>
+              <span class="row-dots"></span>
+              <span class="row-price">&#8377;185</span>
+            </div>
+            <div class="menu-list-row">
+              <span class="row-title">Matcha Vanilla Iced Cloud</span>
+              <span class="row-dots"></span>
+              <span class="row-price">&#8377;195</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="modal-menu-category">
+          <h4 class="category-heading">Artisan Hearth Bakery &amp; Savories</h4>
+          <div class="menu-list">
+            <div class="menu-list-row">
+              <span class="row-title">Butter Croissant</span>
+              <span class="row-dots"></span>
+              <span class="row-price">&#8377;135</span>
+            </div>
+            <div class="menu-list-row">
+              <span class="row-title">Pain au Chocolat</span>
+              <span class="row-dots"></span>
+              <span class="row-price">&#8377;155</span>
+            </div>
+            <div class="menu-list-row">
+              <span class="row-title">Fudgy Sea Salt Brownie</span>
+              <span class="row-dots"></span>
+              <span class="row-price">&#8377;145</span>
+            </div>
+            <div class="menu-list-row">
+              <span class="row-title">Lemon Ricotta Tea Cake</span>
+              <span class="row-dots"></span>
+              <span class="row-price">&#8377;140</span>
+            </div>
+            <div class="menu-list-row">
+              <span class="row-title">Artisan Pesto Sourdough Sandwich</span>
+              <span class="row-dots"></span>
+              <span class="row-price">&#8377;210</span>
+            </div>
+            <div class="menu-list-row">
+              <span class="row-title">Avocado Herb Toast with Microgreens</span>
+              <span class="row-dots"></span>
+              <span class="row-price">&#8377;225</span>
+            </div>
+          </div>
+        </div>
+
+      </div>
+      <div class="modal-footer">
+        <p class="modal-foot-text">Custom orders &amp; catering inquiries: <strong>hello@brewandbloom.cafe</strong></p>
+        <button class="btn btn-outline btn-sm" id="closeMenuModalBtn2">Close</button>
+      </div>
+    </div>
+  </div>
+
+  <!-- FLOATING QUICK ORDER TOAST -->
+  <div class="order-toast" id="orderToast" role="alert" aria-live="polite">
+    <div class="toast-content">
+      <span class="toast-check">&check;</span>
+      <span class="toast-msg" id="toastMessage">Added Cappuccino to order inquiry</span>
+    </div>
+  </div>
+
+  <!-- FOOTER -->
+  <footer class="site-footer">
+    <div class="container">
+      <div class="footer-top-grid">
+        <!-- Brand Info -->
+        <div class="footer-col brand-col">
+          <div class="brand-logo footer-logo">
+            <span class="logo-mark light-mark">
+              <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8">
+                <path d="M18 8h1a4 4 0 0 1 0 8h-1"></path>
+                <path d="M2 8h16v9a4 4 0 0 1-4 4H6a4 4 0 0 1-4-4V8z"></path>
+                <line x1="6" y1="1" x2="6" y2="4"></line>
+                <line x1="10" y1="1" x2="10" y2="4"></line>
+                <line x1="14" y1="1" x2="14" y2="4"></line>
+              </svg>
+            </span>
+            <div class="logo-text">
+              <span class="brand-title text-light">BREW &amp; BLOOM</span>
+              <span class="brand-subtitle text-light-muted">ARTISAN COFFEE &amp; HEARTH</span>
+            </div>
+          </div>
+          <p class="footer-bio">
+            Crafting mindful cups and slow culinary experiences in an inspired, sunlit environment. Savoring the slow pace of life, one sip at a time.
+          </p>
+          <div class="footer-socials">
+            <a href="#" aria-label="Instagram" class="social-icon">
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <rect x="2" y="2" width="20" height="20" rx="5" ry="5"></rect>
+                <path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"></path>
+                <line x1="17.5" y1="6.5" x2="17.51" y2="6.5"></line>
+              </svg>
+            </a>
+            <a href="#" aria-label="Facebook" class="social-icon">
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <path d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z"></path>
+              </svg>
+            </a>
+            <a href="#" aria-label="Twitter" class="social-icon">
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <path d="M23 3a10.9 10.9 0 0 1-3.14 1.53 4.48 4.48 0 0 0-7.86 3v1A10.66 10.66 0 0 1 3 4s-4 9 5 13a11.64 11.64 0 0 1-7 2c9 5 20 0 20-11.5a4.5 4.5 0 0 0-.08-.83A7.72 7.72 0 0 0 23 3z"></path>
+              </svg>
+            </a>
+          </div>
+        </div>
+
+        <!-- Quick Links -->
+        <div class="footer-col">
+          <h4 class="footer-col-title">Navigation</h4>
+          <ul class="footer-links">
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">Our Story</a></li>
+            <li><a href="#menu">Signature Menu</a></li>
+            <li><a href="#features">Bakery Collection</a></li>
+            <li><a href="#gallery">Café Experience</a></li>
+            <li><a href="#contact">Table Reservations</a></li>
+          </ul>
+        </div>
+
+        <!-- Hours & Location -->
+        <div class="footer-col">
+          <h4 class="footer-col-title">Café Hours</h4>
+          <ul class="footer-schedule">
+            <li><span>Mon &ndash; Fri:</span> <strong>7:00 AM &ndash; 10:00 PM</strong></li>
+            <li><span>Sat &ndash; Sun:</span> <strong>7:30 AM &ndash; 11:00 PM</strong></li>
+            <li><span>Kitchen Closes:</span> <strong>9:30 PM Daily</strong></li>
+          </ul>
+          <p class="footer-note">Pets are warmly welcome on our outdoor garden patio!</p>
+        </div>
+
+        <!-- Newsletter Subscription -->
+        <div class="footer-col newsletter-col">
+          <h4 class="footer-col-title">The Sunday Journal</h4>
+          <p class="newsletter-desc">Subscribe to receive monthly micro-lot coffee releases, brewing recipes, and acoustic playlist links.</p>
+          <form class="newsletter-form" id="newsletterForm">
+            <div class="newsletter-input-group">
+              <input type="email" placeholder="Your email address" required aria-label="Email address for newsletter">
+              <button type="submit" aria-label="Subscribe to newsletter">
+                <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                  <line x1="5" y1="12" x2="19" y2="12"></line>
+                  <polyline points="12 5 19 12 12 19"></polyline>
+                </svg>
+              </button>
+            </div>
+            <p class="newsletter-privacy">We respect your privacy. Unsubscribe anytime.</p>
+          </form>
+          <div class="newsletter-success" id="newsletterSuccess">
+            &check; You're subscribed! Welcome to our inner circle.
+          </div>
+        </div>
+
+      </div>
+
+      <!-- Footer Bottom Bar -->
+      <div class="footer-bottom">
+        <p>&copy; 2026 BREW &amp; BLOOM Roastery &amp; Café. All rights reserved.</p>
+        <div class="footer-credit">
+          <span>Crafted for Web Development Activity</span>
+          <span class="sep">&bull;</span>
+          <span>Designed with Passion</span>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
